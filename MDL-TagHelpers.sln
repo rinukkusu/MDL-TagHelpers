@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MaterialDesignLite.TagHelpers", "src\MaterialDesignLite.TagHelpers\MaterialDesignLite.TagHelpers.xproj", "{4483CCF8-629C-4153-9B53-F3915CECD985}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1E46CB5-2ADC-4362-8BC2-472FE1C96F32}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MaterialDesignLite.WebSample", "src\MaterialDesignLite.WebSample\MaterialDesignLite.WebSample.xproj", "{77FD5764-300D-444A-BD34-4BE2E32343EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C2C8A8BD-293B-4D94-8AAE-BB3E5D3A691D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MaterialDesignLite.TagHelpers.Tests", "test\MaterialDesignLite.TagHelpers.Tests\MaterialDesignLite.TagHelpers.Tests.xproj", "{321EBF7A-B992-4C78-BAEC-4B4FEF495E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialDesignLite.TagHelpers", "src\MaterialDesignLite.TagHelpers\MaterialDesignLite.TagHelpers.csproj", "{4483CCF8-629C-4153-9B53-F3915CECD985}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialDesignLite.WebSample", "src\MaterialDesignLite.WebSample\MaterialDesignLite.WebSample.csproj", "{77FD5764-300D-444A-BD34-4BE2E32343EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialDesignLite.TagHelpers.Tests", "test\MaterialDesignLite.TagHelpers.Tests\MaterialDesignLite.TagHelpers.Tests.csproj", "{321EBF7A-B992-4C78-BAEC-4B4FEF495E57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +39,8 @@ Global
 		{4483CCF8-629C-4153-9B53-F3915CECD985} = {B1E46CB5-2ADC-4362-8BC2-472FE1C96F32}
 		{77FD5764-300D-444A-BD34-4BE2E32343EC} = {B1E46CB5-2ADC-4362-8BC2-472FE1C96F32}
 		{321EBF7A-B992-4C78-BAEC-4B4FEF495E57} = {C2C8A8BD-293B-4D94-8AAE-BB3E5D3A691D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7434F50A-0AD6-460B-A016-1E717BDB72A8}
 	EndGlobalSection
 EndGlobal

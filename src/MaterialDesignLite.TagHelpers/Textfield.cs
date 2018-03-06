@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MaterialDesignLite.TagHelpers.StyleValues;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using static MaterialDesignLite.TagHelpers.MdlTagHelperExtension;
 
